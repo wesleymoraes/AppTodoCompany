@@ -1,0 +1,41 @@
+@media (max-width:550px) {
+.MainBannerOrder{
+ background-color: #eeeeee;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+.MainBannerOrderWrapper{
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+   }
+   .imgbannerorderdesktop-saldo{
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 10px;
+   }
+   .imgbannerorderdesktop-pedidos{
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 10px;
+   }
+
+}
+
+@media (min-width:550px) {
+    .MainBannerOrder{
+        background-color: #eeeeee;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }
+       .MainBannerOrderWrapper{
+        max-width: 1252px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+       }
+       .bannersaldo{
+        margin-right: 5px;
+       }
+}

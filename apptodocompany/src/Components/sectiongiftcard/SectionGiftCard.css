@@ -1,0 +1,81 @@
+@media (max-width:550px) {
+    .sectiongiftcarddesktopwrapper {
+        display: none;
+    }
+
+    .bannercartaomobile {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        z-index: -1;
+
+    }
+
+    .buttongiftcard{
+        max-width: 300px;
+        width: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: -40%;
+        }
+
+}
+
+
+@media (min-width:550px) {
+    .bannercartaomobile {
+        display: none;
+    }
+
+    .sectiongiftcarddesktopwrapper {
+        max-width: 1252px;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .sectiongiftcarddesktop {
+        background-color: #808080;
+    }
+
+    .sectiongiftcardtext {
+        color: white;
+        font-size: 20px;
+    }
+
+    .sectiongiftcardmobile {
+        display: none;
+    }
+    .buttongiftcard{
+        max-width: 300px;
+        width: 100%;
+    }
+
+
+}
+
+.btn-sectiongiftcardgreen {
+    color: white;
+    font-weight: bold;
+    background-color: hsl(120, 52%, 39%);
+    height: 2.9375rem;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-sectiongiftcardwhite {
+    color: hsl(120, 52%, 39%);
+    font-weight: bolder;
+    padding: 14px;
+    background-color: #fff;
+    height: 2.9375rem;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    border: none;
+}

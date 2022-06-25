@@ -1,0 +1,105 @@
+@media (max-width:550px) {
+    .FaqDesktop {
+        display: none;
+    }
+
+    .GiftCardInstructionwrapper {
+        max-width: 300px;
+        margin: auto;
+        width: 100%;
+    }
+    .GiftCardInstruction{
+        background-color: #eeeeee;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+
+    }
+
+    .ButtonGiftCardInstruction {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+  
+    }
+
+    .instructionContent {
+        display: flex;
+        flex-direction: column;
+        text-align: center
+    }
+
+    .InstructionTitle {
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+
+    .btngiftcardinstruction {
+        width: 200px;
+        height: 40px;
+        background-color: black;
+        border: none;
+        margin-bottom: 5px;
+        font-weight: bolder;
+        color: white;
+        border-radius: 5px;
+
+    }
+
+    .corporatesalesdesktop {
+        display: none;
+    }
+
+    .corporatesalesmobile {
+        display: flex;
+        max-width: 414px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+        z-index: -1;
+        padding-bottom: 40px;
+    
+    }
+}
+
+@media (min-width:550px) {
+    .GiftCardInstruction {
+        background-color: #eeeeee;
+        padding-top: 20px;
+    }
+
+    .InstructionTitle {
+        text-transform: uppercase;
+    }
+
+    .GiftCardInstructionwrapper {
+        max-width: 1252px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .instructionContent {
+        text-align: center;
+    }
+
+    .ButtonGiftCardInstruction {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .btngiftcardinstruction {
+        width: 200px;
+        height: 40px;
+        background-color: black;
+        border: none;
+        margin-right: 10px;
+        font-weight: bolder;
+        color: white;
+
+    }
+
+    .corporatesalesmobile {
+        display: none;
+    }
+
+}

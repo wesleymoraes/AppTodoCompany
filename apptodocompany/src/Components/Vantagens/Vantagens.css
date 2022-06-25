@@ -1,0 +1,39 @@
+
+
+@media (max-width:550px) {
+   
+    .Vantagensdesktop{
+        display: none;
+    }
+    .Vantagensmobile{
+        max-width: 550px;
+        width: 100%;
+    }
+    .bannervantagensmobile{
+        padding-top: 20px;
+    }
+    .App{
+        max-width: 550px;
+        width: 100%;
+        margin: 2%;
+    }
+}
+
+
+@media (min-width:550px) {
+    
+   .Vantagensmobile{
+    display: none;
+   }
+   .Vantagens{
+    padding-top:20px ;
+    background-color: #eeeeee8e;
+   }
+   .vantagenswrapper{
+    display: flex;
+    max-width: 1252px;
+    width: 100%;
+    margin: auto;
+    justify-content:space-around ;
+   }
+}
