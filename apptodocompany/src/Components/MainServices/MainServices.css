@@ -1,16 +1,19 @@
 @media (max-width:550px) {
-    .MainServicesdesktop{
+    .MainServicesdesktop {
         margin-top: 40px;
         background-color: #eeeeee;
     }
-    .MainServicesdesktopwrap{
+
+    .MainServicesdesktopwrap {
         padding-top: 20px;
     }
-    .MainServicestitle{
+
+    .MainServicestitle {
         font-weight: bold;
         font-size: 23px;
     }
-    .MainServicesdesktopwrap{
+
+    .MainServicesdesktopwrap {
         max-width: 300px;
         width: 100%;
         margin: auto;
@@ -19,19 +22,20 @@
         padding-bottom: 40px;
         padding-top: 40px;
         font-size: 18px;
-      }
-  
+    }
+
 }
 
 @media (min-width:550px) {
-    .MainServicesdesktop{
+    .MainServicesdesktop {
         background-color: #eeeeee;
     }
-    .MainServicesdesktopwrap{
-      max-width: 1252px;
-      width: 100%;
-      margin: auto;
-      display: flex;
-      text-align: center;
+
+    .MainServicesdesktopwrap {
+        max-width: 1252px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        text-align: center;
     }
 }

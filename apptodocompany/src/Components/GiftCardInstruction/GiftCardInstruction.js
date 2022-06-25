@@ -21,25 +21,25 @@ const GiftCardInstruction = () => {
                     <p className='p-GiftCardInstuction'><b>3.</b> Insira o número e a senha do cartão presente.</p>
                 </div>
 
-            <div className='ButtonGiftCardInstruction'>
-                <button  href="https://shoulder.todocartoes.com.br/#/purchase"  className='btngiftcardinstruction' >  Consultar Valor</button>
-                <button  href="https://whts.co/shoulder" className='btngiftcardinstruction'>Onde Usar</button>
+                <div className='ButtonGiftCardInstruction'>
+                    <button href="https://shoulder.todocartoes.com.br/#/purchase" className='btngiftcardinstruction' >  Consultar Valor</button>
+                    <button href="https://whts.co/shoulder" className='btngiftcardinstruction'>Onde Usar</button>
 
-            </div>
-            <div className='ImgCorporateSales'>
-                <img className='corporatesalesdesktop' src={corporatesalesdesktop} alt="" />
+                </div>
+                <div className='ImgCorporateSales'>
+                    <img className='corporatesalesdesktop' src={corporatesalesdesktop} alt="" />
+                </div>
+
+                <div>
+                    <img className='corporatesalesmobile' src={corporatesalesmobile} alt="" />
+                </div>
+
+                <div className='FaqDesktop'>
+                    <a href="http://localhost:3000/" className='faq1'>Perguntas Frequentes</a>
+                    <a href="http://localhost:3000/" className='faq2'>Termos de Uso</a>
+                </div>
             </div>
 
-            <div>
-                <img className='corporatesalesmobile' src={corporatesalesmobile} alt="" />
-            </div>
-
-            <div className='FaqDesktop'>
-                <a href="http://localhost:3000/" className='faq1'>Perguntas Frequentes</a>
-                <a href="http://localhost:3000/" className='faq2'>Termos de Uso</a>
-            </div>
-            </div>
-            
         </section>
     )
 }

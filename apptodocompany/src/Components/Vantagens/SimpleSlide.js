@@ -22,7 +22,7 @@ const Slide = () => {
                 showNavs={true}
                 autoPlay={true}
                 onClick={true}
-                
+
             />
         </div>
     );

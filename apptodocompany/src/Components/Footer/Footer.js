@@ -20,10 +20,10 @@ const Footer = () => {
                         <div className='RowSociais'>
                             <div className="sociais-box">
                                 <a href="http://localhost:3000/]">
-                                    <img  className="redessociais" src={facebookBrand} alt=""  />
+                                    <img className="redessociais" src={facebookBrand} alt="" />
                                 </a>
                                 <a href="http://localhost:3000/]">
-                                    <img className="redessociais" src={instagramBrand}  alt="" />
+                                    <img className="redessociais" src={instagramBrand} alt="" />
                                 </a>
                                 <a href="http://localhost:3000/]">
                                     <img className="redessociais" src={twitterBrands} alt="" />

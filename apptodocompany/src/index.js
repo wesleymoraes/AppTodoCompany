@@ -9,7 +9,6 @@ import MainBannerOrder from './Components/MainBannerOrder/MainBannerOrder'
 import MainServices from './Components/MainServices/MainServices'
 import HeaderMenu from './Components/Menu-Nav/HeaderMenu'
 import SectionGiftCard from './Components/sectiongiftcard/SectionGiftCard'
-import StiykyFooter from './Components/Stiky-Footer/StikyFooter';
 import Vantagens from './Components/Vantagens/vantagens'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +20,6 @@ root.render(
     <Vantagens />
     <MainBannerOrder />
     <GiftCardInstruction />
-    <StiykyFooter />
     <Footer />
   </React.StrictMode>
 );

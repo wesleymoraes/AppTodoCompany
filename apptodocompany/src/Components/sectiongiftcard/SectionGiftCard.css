@@ -11,13 +11,13 @@
 
     }
 
-    .buttongiftcard{
+    .buttongiftcard {
         max-width: 300px;
         width: 100%;
         margin-left: 25%;
         margin-right: 25%;
         margin-top: -40%;
-        }
+    }
 
 }
 
@@ -46,7 +46,8 @@
     .sectiongiftcardmobile {
         display: none;
     }
-    .buttongiftcard{
+
+    .buttongiftcard {
         max-width: 300px;
         width: 100%;
     }
